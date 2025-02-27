@@ -73,37 +73,20 @@ The tool follows a step-by-step process to ensure a smooth user experience:
 ![Figure 6](https://github.com/uzmauzma/Survaytool/blob/main/Fig/hert_cp_tal.png)
 <p>Figure 6: Relationship between Chest Pain Type and Thalassemia in the Cleveland Heart Disease dataset. Categories such as "Asymptomatic," "Normal (Thalassemia)," and "Reversible Defect" exhibit strong contributions, highlighting their diagnostic significance.</p>
 
+## Table 2: Logistic Regression Results for Titanic Dataset
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Logistic Regression Results</title>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-            font-size: 16px;
-            text-align: left;
-        }
-        th, td {
-            padding: 10px;
-            border: 1px solid #ddd;
-        }
-        th {
-            background-color: #f4f4f4;
-        }
-        caption {
-            caption-side: top;
-            font-weight: bold;
-            font-size: 18px;
-            margin-bottom: 10px;
-        }
-    </style>
-</head>
-<body>
+| Predictors | Risk Ratios | Std. Error | Std. Beta | Standardized Std. Error | CI          | Standardized CI | Statistic |
+|------------|-------------|------------|-----------|--------------------------|-------------|-----------------|-----------|
+| Intercept  | 0.32 ***    | 0.11       | -0.52     | 0.07                     | 0.26 - 0.39 | 0.51 - 0.69     | -10.82    |
+| Pclass_1   | 5.31 ***    | 0.18       | 0.72      | 0.08                     | 3.76 - 7.50 | 1.77 - 2.37     | 9.5       |
+| Pclass_2   | 2.80 ***    | 0.18       | 0.42      | 0.07                     | 1.96 - 4.00 | 1.31 - 1.75     | 5.68      |
+
+**Observations:** 8911  
+**R²:** 0.087  
+
+* p<0.05 ** p<0.01 *** p<0.001
+
+
     <table>
         <caption>Table 2: Logistic Regression Results for Titanic Dataset</caption>
         <thead>
