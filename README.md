@@ -27,5 +27,18 @@ Intervals (CI). </p1>
 
 <p>Matplotlib/Seaborn: Incorporated for generating visualizations of the results, enhancing interpretability and clarity.</p>
 
+<h2>Tool Workflow</h2>
+
+The tool follows a step-by-step process to ensure a smooth user experience:
+
+<p>1. File Upload: Users upload a CSV file containing the survey data, which is then previewed for correctness.</p>
+
+<p>2.Analysis Selection: Users select one of three statistical methods: Chi-Square, GLM, or Multinomial Logistic Regression.</p>
+
+<p>3.Variable Selection: Users select dependent and independent variables, along with reference categories where applicable.</p>
+
+<p>4.Analysis Execution: The selected statistical method is applied, and the tool outputs a detailed results table, which includes metrics like Risk Ratios, Confidence Intervals (CI), and statistical significance.</p>
+
+<p>5.Results Display: The tool presents the results in both tabular and summarized forms, and users can download the summarized results in CSV, Excel, or HTML formats for offline use.</p>
 <ul>
   <li>Analyze the network for global network properties.</li>
