@@ -45,7 +45,7 @@ The tool follows a step-by-step process to ensure a smooth user experience:
 <p? 1. Clone the repository or download the project.</p>
 
 <p> 2. Install required dependencies:</p>
-<pre style="background-color: #000; color: #fff;">pip install requirements</pre>
+<pre style="background-color: #000; color: #fff;">pip install -r requirements.txt</pre>
 <p>3. Launch the Streamlit app: </p>
 <pre style="background-color: #000; color: #fff;">streamlit run survaytool.py</pre>
 
