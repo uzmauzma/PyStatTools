@@ -174,4 +174,4 @@ The tool follows a step-by-step process to ensure a smooth user experience:
 </body>
 </html>
 
-  <li>Analyze the network for global network properties.</li>
+
