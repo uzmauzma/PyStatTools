@@ -97,6 +97,50 @@ The tool follows a step-by-step process to ensure a smooth user experience:
 |R²          |  0.018
 |* p<0.05 ** p<0.01 *** p<0.001         |  
 
+## Table 4: Multinomial Regression Results for Passenger Class (PClass) and Survival Status
+
+| Predictors    | Risk Ratios | 95% CI          | Coefficient | Std. Error | p-value | Response |
+|---------------|-------------|-----------------|-------------|------------|---------|----------|
+| const         | 1           | 1.00 - 1.00     | 0           | 0          | nan     | 1        |
+| Survived_1    | 1.56 ***    | 1.44 - 1.68     | 0.44        | 0.04       | 0       | 1        |
+| Sex_female    | 0.88 **     | 0.82 - 0.95     | -0.12       | 0.04       | 0.0018  | 1        |
+| const         | 1           | 1.00 - 1.00     | 0           | 0          | nan     | 2        |
+| Survived_1    | 1.04        | 0.96 - 1.12     | 0.04        | 0.04       | 0.3425  | 2        |
+| Sex_female    | 1.05        | 0.97 - 1.13     | 0.05        | 0.04       | 0.2386  | 2        |
+| const         | 1           | 1.00 - 1.00     | 0           | 0          | nan     | 3        |
+| Survived_1    | 0.62 ***    | 0.57 - 0.67     | -0.48       | 0.04       | 0       | 3        |
+| Sex_female    | 1.08        | 1.00 - 1.17     | 0.08        | 0.04       | 0.0527  | 3        |
+|Observations|  891            
+|R²          |  0.549 
+|* p<0.05 ** p<0.01 *** p<0.001         |  
+
+## Table 5: Multinomial Regression Results for Chest Pain Type (CP)
+
+| Predictors                 | Risk Ratios | 95% CI          | Coefficient | Std. Error | p-value   | Response          |
+|----------------------------|-------------|-----------------|-------------|------------|-----------|-------------------|
+| const                      | 1           | 1.00 - 1.00     | 0           | 0          | nan       | asymptomatic      |
+| restecg_normal             | 0.85 **     | 0.76 - 0.95     | -0.16       | 0.06       | 0.0055    | asymptomatic      |
+| restecg_st-t abnormality   | 1.23 ***    | 1.10 - 1.38     | 0.21        | 0.06       | 0.0004    | asymptomatic      |
+| thal_normal                | 0.65 ***    | 0.51 - 0.83     | -0.43       | 0.12       | 0.0005    | asymptomatic      |
+| thal_reversable defect     | 1.09        | 0.85 - 1.39     | 0.09        | 0.12       | 0.4916    | asymptomatic      |
+| const                      | 1           | 1.00 - 1.00     | 0           | 0          | nan       | atypical angina   |
+| restecg_normal             | 1.26 ***    | 1.13 - 1.42     | 0.23        | 0.06       | 0.0001    | atypical angina   |
+| restecg_st-t abnormality   | 0.82 ***    | 0.73 - 0.92     | -0.2        | 0.06       | 0.0006    | atypical angina   |
+| thal_normal                | 1.27        | 1.00 - 1.62     | 0.24        | 0.12       | 0.0528    | atypical angina   |
+| thal_reversable defect     | 0.84        | 0.66 - 1.08     | -0.17       | 0.12       | 0.1696    | atypical angina   |
+| const                      | 1           | 1.00 - 1.00     | 0           | 0          | nan       | non-anginal       |
+| restecg_normal             | 1.17 **     | 1.04 - 1.31     | 0.15        | 0.06       | 0.0085    | non-anginal       |
+| restecg_st-t abnormality   | 1.19 **     | 1.06 - 1.33     | 0.17        | 0.06       | 0.0035    | non-anginal       |
+| thal_normal                | 1.52 ***    | 1.19 - 1.94     | 0.42        | 0.12       | 0.0008    | non-anginal       |
+| thal_reversable defect     | 1.25        | 0.98 - 1.59     | 0.22        | 0.12       | 0.0762    | non-anginal       |
+| const                      | 1           | 1.00 - 1.00     | 0           | 0          | nan       | typical angina    |
+| restecg_normal             | 0.80 ***    | 0.71 - 0.89     | -0.23       | 0.06       | 0.0001    | typical angina    |
+| restecg_st-t abnormality   | 0.84 **     | 0.75 - 0.94     | -0.18       | 0.06       | 0.0026    | typical angina    |
+| thal_normal                | 0.8         | 0.63 - 1.02     | -0.22       | 0.12       | 0.0714    | typical angina    |
+| thal_reversable defect     | 0.87        | 0.69 - 1.11     | -0.13       | 0.12       | 0.2769    | typical angina    |
+|Observations|  301            
+|R²          |  0.502  
+|* p<0.05 ** p<0.01 *** p<0.001     
 
 
 
