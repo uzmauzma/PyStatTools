@@ -80,69 +80,8 @@ The tool follows a step-by-step process to ensure a smooth user experience:
 | Intercept  | 0.32 ***    | 0.11       | -0.52     | 0.07                     | 0.26 - 0.39 | 0.51 - 0.69     | -10.82    |
 | Pclass_1   | 5.31 ***    | 0.18       | 0.72      | 0.08                     | 3.76 - 7.50 | 1.77 - 2.37     | 9.5       |
 | Pclass_2   | 2.80 ***    | 0.18       | 0.42      | 0.07                     | 1.96 - 4.00 | 1.31 - 1.75     | 5.68      |
-
-**Observations:** 8911  
-**R²:** 0.087  
-
-* p<0.05 ** p<0.01 *** p<0.001
-
-
-    <table>
-        <caption>Table 2: Logistic Regression Results for Titanic Dataset</caption>
-        <thead>
-            <tr>
-                <th>Predictors</th>
-                <th>Risk Ratios</th>
-                <th>Std. Error</th>
-                <th>Std. Beta</th>
-                <th>Standardized Std. Error</th>
-                <th>CI</th>
-                <th>Standardized CI</th>
-                <th>Statistic</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Intercept</td>
-                <td>0.32 ***</td>
-                <td>0.11</td>
-                <td>-0.52</td>
-                <td>0.07</td>
-                <td>0.26 - 0.39</td>
-                <td>0.51 - 0.69</td>
-                <td>-10.82</td>
-            </tr>
-            <tr>
-                <td>Pclass_1</td>
-                <td>5.31 ***</td>
-                <td>0.18</td>
-                <td>0.72</td>
-                <td>0.08</td>
-                <td>3.76 - 7.50</td>
-                <td>1.77 - 2.37</td>
-                <td>9.5</td>
-            </tr>
-            <tr>
-                <td>Pclass_2</td>
-                <td>2.80 ***</td>
-                <td>0.18</td>
-                <td>0.42</td>
-                <td>0.07</td>
-                <td>1.96 - 4.00</td>
-                <td>1.31 - 1.75</td>
-                <td>5.68</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <td colspan="8">Observations: 8911 | R<sup>2</sup>: 0.087</td>
-            </tr>
-            <tr>
-                <td colspan="8">* p&lt;0.05 ** p&lt;0.01 *** p&lt;0.001</td>
-            </tr>
-        </tfoot>
-    </table>
-</body>
-</html>
+|Observations|  8911            
+|R²          |  0.087 
+|* p<0.05 ** p<0.01 *** p<0.001
 
 
