@@ -16,15 +16,16 @@ Intervals (CI). </p1>
 <p>The Survey Analysis Tool was designed using Python as the primary programming language, leveraging its robust ecosystem for data analysis and web application development. The architecture follows a systematic flow that guides users through each step of the analysis.</p>
 
 <h2>Frameworks and Libraries Used </h2>
-Streamlit: Used to create an intuitive and interactive web interface for the application, enabling users to upload datasets, select analysis types, and visualize results with minimal technical effort.
 
-Pandas: Utilized for data preprocessing, manipulation, and analysis, allowing seamless handling of tabular data such as CSV files.
+<p>Streamlit: Used to create an intuitive and interactive web interface for the application, enabling users to upload datasets, select analysis types, and visualize results with minimal technical effort.</p>
 
-Statsmodels: Applied for conducting advanced statistical analyses, including Generalized Linear Models (GLM) and Multinomial Logistic Regression.
+<p>Pandas: Utilized for data preprocessing, manipulation, and analysis, allowing seamless handling of tabular data such as CSV files.</p>
 
-SciPy: Used for implementing Chi-Square Tests to assess statistical significance in contingency tables.
+<p>Statsmodels: Applied for conducting advanced statistical analyses, including Generalized Linear Models (GLM) and Multinomial Logistic Regression.</p>
 
-Matplotlib/Seaborn: Incorporated for generating visualizations of the results, enhancing interpretability and clarity.
+<p>SciPy: Used for implementing Chi-Square Tests to assess statistical significance in contingency tables.</p>
+
+<p>Matplotlib/Seaborn: Incorporated for generating visualizations of the results, enhancing interpretability and clarity.</p>
 
 <ul>
   <li>Analyze the network for global network properties.</li>
