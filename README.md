@@ -55,7 +55,33 @@ The tool follows a step-by-step process to ensure a smooth user experience:
 <p>4. Follow the interface to upload your dataset, select the desired analysis method, and view the results.</p>
 <h2>Figures</h2>
 
+## Table 6: Training Hyperparameters
 
-Figure 3: Balloon plot of Chi-Square contributions and Chi-Square ratio plot for the Titanic dataset. Survival status (Survived) and sex (gender), such as female, show strong contributions to survival outcomes, as indicated by balloon size and colour. 
+| Parameter                                | Value     |
+|----------------------------------------- |-----------|
+| Batch size for training                  | 16        |
+|Learning rate for optimization            | 0.0001    |
+| Number of units in each layer            | 64        |
+|Total number of layers (1 input, 2 hidden)| 3         |
+| Number of training epochs                | 50        |
+| Number of splits for cross-validation    | 5 folds   |
+| Activation function                      | ReLU      |
+|L2 regularization parameter               | 0.01      |
+|Number of random seeds for reproducibility| 7         |
+
+## 6. Results
+
+### 6.1 Learning Curve
+![Learning Curve](https://github.com/uzmauzma/Biofilter-Performance-ML-Buckingham-Pi/blob/main/Fig2.png)
+
+### 6.2 Regression Plots
+#### BPNN and BP_LR Regression Plot
+![BPNN and BP_LR Regression Plot](https://github.com/uzmauzma/Biofilter-Performance-ML-Buckingham-Pi/blob/main/Fig4.png)
+
+### 6.3 Comparison of algorithms on the testing dataset using two performance metrics: R² and sMAPE
+![Performance Metrics - R²](https://github.com/uzmauzma/Biofilter-Performance-ML-Buckingham-Pi/blob/main/Fig5.png)
+
+### Figure 3: Balloon plot of Chi-Square contributions and Chi-Square ratio plot for the Titanic dataset. Survival status (Survived) and sex (gender), such as female, show strong contributions to survival outcomes, as indicated by balloon size and colour. 
+![Learning Curve](https://github.com/uzmauzma/Biofilter-Performance-ML-Buckingham-Pi/blob/main/Fig3.png)
 <ul>
   <li>Analyze the network for global network properties.</li>
