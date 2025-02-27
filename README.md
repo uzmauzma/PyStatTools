@@ -55,19 +55,6 @@ The tool follows a step-by-step process to ensure a smooth user experience:
 <p>4. Follow the interface to upload your dataset, select the desired analysis method, and view the results.</p>
 <h2>Figures</h2>
 
-## Table 6: Training Hyperparameters
-
-| Parameter                                | Value     |
-|----------------------------------------- |-----------|
-| Batch size for training                  | 16        |
-|Learning rate for optimization            | 0.0001    |
-| Number of units in each layer            | 64        |
-|Total number of layers (1 input, 2 hidden)| 3         |
-| Number of training epochs                | 50        |
-| Number of splits for cross-validation    | 5 folds   |
-| Activation function                      | ReLU      |
-|L2 regularization parameter               | 0.01      |
-|Number of random seeds for reproducibility| 7         |
 
 ## 6. Results
 
@@ -85,6 +72,7 @@ The tool follows a step-by-step process to ensure a smooth user experience:
 
 ![Figure 6](https://github.com/uzmauzma/Survaytool/blob/main/Fig/hert_cp_tal.png)
 <p>Figure 6: Relationship between Chest Pain Type and Thalassemia in the Cleveland Heart Disease dataset. Categories such as "Asymptomatic," "Normal (Thalassemia)," and "Reversible Defect" exhibit strong contributions, highlighting their diagnostic significance.</p>
+
 
 <!DOCTYPE html>
 <html lang="en">
