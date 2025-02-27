@@ -82,6 +82,7 @@ The tool follows a step-by-step process to ensure a smooth user experience:
 ![Performance Metrics - R²](https://github.com/uzmauzma/Biofilter-Performance-ML-Buckingham-Pi/blob/main/Fig5.png)
 
 ### Figure 3: Balloon plot of Chi-Square contributions and Chi-Square ratio plot for the Titanic dataset. Survival status (Survived) and sex (gender), such as female, show strong contributions to survival outcomes, as indicated by balloon size and colour. 
+![Figure 3](https://github.com/uzmauzma/Survaytool/blob/main/Fig/SEX_TIT.png)
 ![Learning Curve](https://github.com/uzmauzma/Biofilter-Performance-ML-Buckingham-Pi/blob/main/Fig3.png)
 <ul>
   <li>Analyze the network for global network properties.</li>
