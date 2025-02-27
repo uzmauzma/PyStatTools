@@ -54,5 +54,8 @@ The tool follows a step-by-step process to ensure a smooth user experience:
 
 <p>4. Follow the interface to upload your dataset, select the desired analysis method, and view the results.</p>
 <h2>Figures</h2>
+
+
+Figure 3: Balloon plot of Chi-Square contributions and Chi-Square ratio plot for the Titanic dataset. Survival status (Survived) and sex (gender), such as female, show strong contributions to survival outcomes, as indicated by balloon size and colour. 
 <ul>
   <li>Analyze the network for global network properties.</li>
