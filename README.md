@@ -40,5 +40,17 @@ The tool follows a step-by-step process to ensure a smooth user experience:
 <p>4.Analysis Execution: The selected statistical method is applied, and the tool outputs a detailed results table, which includes metrics like Risk Ratios, Confidence Intervals (CI), and statistical significance.</p>
 
 <p>5.Results Display: The tool presents the results in both tabular and summarized forms, and users can download the summarized results in CSV, Excel, or HTML formats for offline use.</p>
+<h1>How to Use the Tool</h1>h1>
+
+<p>1. Clone the repository or download the project.</p>
+
+ pip install -r requirements.txt
+<p> 2. Install required dependencies:</p>
+
+<p>3Launch the Streamlit app: </p>
+streamlit run survaytool.py
+
+<p>4. Follow the interface to upload your dataset, select the desired analysis method, and view the results.</p>
+<h2>Figures</h2>
 <ul>
   <li>Analyze the network for global network properties.</li>
