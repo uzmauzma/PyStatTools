@@ -82,6 +82,21 @@ The tool follows a step-by-step process to ensure a smooth user experience:
 | Pclass_2   | 2.80 ***    | 0.18       | 0.42      | 0.07                     | 1.96 - 4.00 | 1.31 - 1.75     | 5.68      |
 |Observations|  8911            
 |R²          |  0.087 
-|* p<0.05 ** p<0.01 *** p<0.001
+|* p<0.05 ** p<0.01 *** p<0.001         |        
+
+
+## Table 3: Logistic Regression Results for Heart Disease Dataset
+
+| Predictors              | Risk Ratios | Std. Error | Std. Beta | Standardized Std. Error | CI             | Standardized CI  | Statistic |
+|--------------------------|-------------|------------|-----------|--------------------------|----------------|------------------|-----------|
+| Intercept               | 0.21 **     | 0.55       | -0.78     | 0.13                     | 0.07 - 0.62    | 0.36 - 0.59      | -2.83     |
+| cp_asymptomatic         | 1.83        | 0.58       | 0.30      | 0.29                     | 0.59 - 5.70    | 0.77 - 2.39      | 1.04      |
+| cp_non-anginal          | 3.26 *      | 0.59       | 0.53      | 0.27                     | 1.02 - 10.41   | 1.01 - 2.88      | 2.00      |
+| cp_atypical angina      | 2.59        | 0.62       | 0.36      | 0.23                     | 0.76 - 8.79    | 0.90 - 2.26      | 1.53      |
+|Observations|  304           
+|R²          |  0.018
+|* p<0.05 ** p<0.01 *** p<0.001         |  
+
+
 
 
