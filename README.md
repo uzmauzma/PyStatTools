@@ -40,14 +40,14 @@ The tool follows a step-by-step process to ensure a smooth user experience:
 <p>4.Analysis Execution: The selected statistical method is applied, and the tool outputs a detailed results table, which includes metrics like Risk Ratios, Confidence Intervals (CI), and statistical significance.</p>
 
 <p>5.Results Display: The tool presents the results in both tabular and summarized forms, and users can download the summarized results in CSV, Excel, or HTML formats for offline use.</p>
-<h1>How to Use the Tool</h1>h1>
+<h1>How to Use the Tool</h1>
 
-<p>1. Clone the repository or download the project.</p>
+<p> 1. Clone the repository or download the project.</p>
 
 <p> 2. Install required dependencies:</p>
-<pre style="background-color: #000; color: #fff;">d="/pip install requirements/"</pre>
+<pre style="background-color: #000; color: #fff;">pip install requirements</pre>
 <p>3Launch the Streamlit app: </p>
-<pre style="background-color: #000; color: #fff;">d="/streamlit run survaytool.py/"</pre>
+<pre style="background-color: #000; color: #fff;">streamlit run survaytool.py</pre>
 
 
 <p>4. Follow the interface to upload your dataset, select the desired analysis method, and view the results.</p>
