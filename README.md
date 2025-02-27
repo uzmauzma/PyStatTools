@@ -44,11 +44,11 @@ The tool follows a step-by-step process to ensure a smooth user experience:
 
 <p>1. Clone the repository or download the project.</p>
 
- pip install -r requirements.txt
 <p> 2. Install required dependencies:</p>
-
+<pre style="background-color: #000; color: #fff;">d="/pip install requirements/"</pre>
 <p>3Launch the Streamlit app: </p>
-streamlit run survaytool.py
+<pre style="background-color: #000; color: #fff;">d="/streamlit run survaytool.py/"</pre>
+
 
 <p>4. Follow the interface to upload your dataset, select the desired analysis method, and view the results.</p>
 <h2>Figures</h2>
