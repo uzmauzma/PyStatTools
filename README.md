@@ -1,14 +1,14 @@
 <h1>Survey Analysis Tool</h1>
 <h3> Overview </h3>
-<p1>The Survey Analysis Tool is a Python-based application designed for performing various statistical analyses,
+<p>The Survey Analysis Tool is a Python-based application designed for performing various statistical analyses,
   including Chi-Square Tests, Generalized Linear Models (GLM), and Multinomial Logistic Regression, on survey data.
   It provides a user-friendly web interface built with Streamlit that allows users 
-  to upload survey datasets, choose analysis types, select variables, and visualize results.</p1>
+  to upload survey datasets, choose analysis types, select variables, and visualize results.</p>
 
-<p>The tool is developed to cater to researchers and data analysts who may not have extensive programming
+<p>This tool is developed to cater to researchers and data analysts who may not have extensive programming
 knowledge but need an accessible method to perform advanced statistical analyses on survey data. The results 
 are presented in an easy-to-understand format, enabling users to interpret statistical significance and other key metrics like Risk Ratios and Confidence 
-Intervals (CI). </p1>
+Intervals (CI). </p>
 <h1>Methodology</h1>
 
 <h2>Tool Design and Architecture</h2>
@@ -17,46 +17,52 @@ Intervals (CI). </p1>
 
 <h2>Frameworks and Libraries Used </h2>
 
-<p>Streamlit: Used to create an intuitive and interactive web interface for the application, enabling users to upload datasets, select analysis types, and visualize results with minimal technical effort.</p>
+<p>Streamlit: Used to create an intuitive and interactive web interface for the application, enabling users to upload datasets, select analysis types, and visualize results with user-friendly.</p>
 
-<p>Pandas: Utilized for data preprocessing, manipulation, and analysis, allowing seamless handling of tabular data such as CSV files.</p>
-
-<p>Statsmodels: Applied for conducting advanced statistical analyses, including Generalized Linear Models (GLM) and Multinomial Logistic Regression.</p>
-
-<p>SciPy: Used for implementing Chi-Square Tests to assess statistical significance in contingency tables.</p>
-
-<p>Matplotlib/Seaborn: Incorporated for generating visualizations of the results, enhancing interpretability and clarity.</p>
+<ul>
+  <li><strong>Streamlit:</strong> Creates an interactive web interface for dataset uploads and result visualization.</li>
+  <li><strong>Pandas:</strong> Handles data manipulation and preprocessing tasks.</li>
+  <li><strong>Statsmodels:</strong> Executes advanced statistical analyses such as GLM and Multinomial Logistic Regression.</li>
+  <li><strong>SciPy:</strong> Performs Chi-Square Tests for contingency table analysis.</li>
+  <li><strong>Matplotlib/Seaborn:</strong> Generates plots to enhance data interpretability.</li>
+</ul>
 
 <h2>Tool Workflow</h2>
 
-The tool follows a step-by-step process to ensure a smooth user experience:
+<ol>
+  <li><strong>File Upload:</strong> Users upload and preview survey data in CSV format.</li>
+  <li><strong>Analysis Selection:</strong> Users choose statistical methods: Chi-Square, GLM, or Multinomial Logistic Regression.</li>
+  <li><strong>Variable Selection:</strong> Users select dependent and independent variables and define reference categories.</li>
+  <li><strong>Analysis Execution:</strong> The tool performs calculations and generates detailed results tables, 
+      including Risk Ratios, CIs, and p-values.</li>
+  <li><strong>Results Display:</strong> Results are presented in both tabular and graphical formats, 
+      with options to download for offline use.</li>
+</ol>
 
-<p>1. File Upload: Users upload a CSV file containing the survey data, which is then previewed for correctness.</p>
-
-<p>2.Analysis Selection: Users select one of three statistical methods: Chi-Square, GLM, or Multinomial Logistic Regression.</p>
-
-<p>3.Variable Selection: Users select dependent and independent variables, along with reference categories where applicable.</p>
-
-<p>4.Analysis Execution: The selected statistical method is applied, and the tool outputs a detailed results table, which includes metrics like Risk Ratios, Confidence Intervals (CI), and statistical significance.</p>
-
-<p>5.Results Display: The tool presents the results in both tabular and summarized forms, and users can download the summarized results in CSV, Excel, or HTML formats for offline use.</p>
 <h1>How to Use the Tool</h1>
 
-<p? 1. Clone the repository or download the project.</p>
-
-<p> 2. Install required dependencies:</p>
-<pre style="background-color: #000; color: #fff;">pip install -r requirements.txt</pre>
-<p>3. Launch the Streamlit app: </p>
-<pre style="background-color: #000; color: #fff;">streamlit run survaytool.py</pre>
+<ol>
+  <li>Clone the repository or download the project files.</li>
+  <li>Install required dependencies:
+    <pre style="background-color: #f4f4f4; color: #333;">pip install -r requirements.txt</pre>
+  </li>
+  <li>Launch the Streamlit app:
+    <pre style="background-color: #f4f4f4; color: #333;">streamlit run surveytool.py</pre>
+  </li>
+  <li>Follow the interface to upload datasets, select analysis methods, and view results.</li>
+</ol>
 
 <h2>Contributions</h2>
 <p>This tool is open-source and available on GitHub for public use and collaboration. Contributions are welcome! If you would like to contribute to the development of the tool, please feel free to submit a pull request or open an issue on the GitHub repository.</p>
 
 <p>4. Follow the interface to upload your dataset, select the desired analysis method, and view the results.</p>
-<h2>Figures</h2>
+
+
 
 
 ## 6. Results
+
+<h2>Figures</h2>
 
 ![Figure 3](https://github.com/uzmauzma/Survaytool/blob/main/Fig/SEX_TIT.png)
 
