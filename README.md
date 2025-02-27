@@ -42,11 +42,11 @@ The tool follows a step-by-step process to ensure a smooth user experience:
 <p>5.Results Display: The tool presents the results in both tabular and summarized forms, and users can download the summarized results in CSV, Excel, or HTML formats for offline use.</p>
 <h1>How to Use the Tool</h1>
 
-<p> 1. Clone the repository or download the project.</p>
+<p 1. Clone the repository or download the project.</p>
 
 <p> 2. Install required dependencies:</p>
 <pre style="background-color: #000; color: #fff;">pip install requirements</pre>
-<p>3Launch the Streamlit app: </p>
+<p>Launch the Streamlit app: </p>
 <pre style="background-color: #000; color: #fff;">streamlit run survaytool.py</pre>
 
 
