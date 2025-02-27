@@ -71,18 +71,17 @@ The tool follows a step-by-step process to ensure a smooth user experience:
 
 ## 6. Results
 
-### 6.1 Learning Curve
-![Learning Curve](https://github.com/uzmauzma/Biofilter-Performance-ML-Buckingham-Pi/blob/main/Fig2.png)
-
-### 6.2 Regression Plots
-#### BPNN and BP_LR Regression Plot
-![BPNN and BP_LR Regression Plot](https://github.com/uzmauzma/Biofilter-Performance-ML-Buckingham-Pi/blob/main/Fig4.png)
-
-### 6.3 Comparison of algorithms on the testing dataset using two performance metrics: R² and sMAPE
-![Performance Metrics - R²](https://github.com/uzmauzma/Biofilter-Performance-ML-Buckingham-Pi/blob/main/Fig5.png)
-
-### Figure 3: Balloon plot of Chi-Square contributions and Chi-Square ratio plot for the Titanic dataset. Survival status (Survived) and sex (gender), such as female, show strong contributions to survival outcomes, as indicated by balloon size and colour. 
 ![Figure 3](https://github.com/uzmauzma/Survaytool/blob/main/Fig/SEX_TIT.png)
-![Learning Curve](https://github.com/uzmauzma/Biofilter-Performance-ML-Buckingham-Pi/blob/main/Fig3.png)
-<ul>
+Figure 3: Balloon plot of Chi-Square contributions and Chi-Square ratio plot for the Titanic dataset. Survival status (Survived) and sex (gender), such as female, show strong contributions to survival outcomes, as indicated by balloon size and colour. 
+
+![Figure 4](https://github.com/uzmauzma/Survaytool/blob/main/Fig/pclass_TIT.png)
+Figure 4: Survival rates by passenger class in the Titanic dataset. First-class passengers show the highest survival rates, followed by second-class, with third-class passengers having the lowest survival rates.
+
+![Figure 5](https://github.com/uzmauzma/Survaytool/blob/main/Fig/hert_cp_ca.png)
+Figure 5: Relationship between Chest Pain Type and NumColoredVessels in the Cleveland Heart Disease dataset. Larger balloons indicate stronger associations, with "Non-Anginal Pain" and "Asymptomatic" categories contributing significantly to the Chi-Square statistic.
+
+![Figure 6](https://github.com/uzmauzma/Survaytool/blob/main/Fig/hert_cp_tal.png)
+Figure 6: Relationship between Chest Pain Type and Thalassemia in the Cleveland Heart Disease dataset. Categories such as "Asymptomatic," "Normal (Thalassemia)," and "Reversible Defect" exhibit strong contributions, highlighting their diagnostic significance.
+
+
   <li>Analyze the network for global network properties.</li>
