@@ -86,5 +86,92 @@ The tool follows a step-by-step process to ensure a smooth user experience:
 ![Figure 6](https://github.com/uzmauzma/Survaytool/blob/main/Fig/hert_cp_tal.png)
 <p>Figure 6: Relationship between Chest Pain Type and Thalassemia in the Cleveland Heart Disease dataset. Categories such as "Asymptomatic," "Normal (Thalassemia)," and "Reversible Defect" exhibit strong contributions, highlighting their diagnostic significance.</p>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logistic Regression Results</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 16px;
+            text-align: left;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        caption {
+            caption-side: top;
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Table 2: Logistic Regression Results for Titanic Dataset</caption>
+        <thead>
+            <tr>
+                <th>Predictors</th>
+                <th>Risk Ratios</th>
+                <th>Std. Error</th>
+                <th>Std. Beta</th>
+                <th>Standardized Std. Error</th>
+                <th>CI</th>
+                <th>Standardized CI</th>
+                <th>Statistic</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Intercept</td>
+                <td>0.32 ***</td>
+                <td>0.11</td>
+                <td>-0.52</td>
+                <td>0.07</td>
+                <td>0.26 - 0.39</td>
+                <td>0.51 - 0.69</td>
+                <td>-10.82</td>
+            </tr>
+            <tr>
+                <td>Pclass_1</td>
+                <td>5.31 ***</td>
+                <td>0.18</td>
+                <td>0.72</td>
+                <td>0.08</td>
+                <td>3.76 - 7.50</td>
+                <td>1.77 - 2.37</td>
+                <td>9.5</td>
+            </tr>
+            <tr>
+                <td>Pclass_2</td>
+                <td>2.80 ***</td>
+                <td>0.18</td>
+                <td>0.42</td>
+                <td>0.07</td>
+                <td>1.96 - 4.00</td>
+                <td>1.31 - 1.75</td>
+                <td>5.68</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="8">Observations: 8911 | R<sup>2</sup>: 0.087</td>
+            </tr>
+            <tr>
+                <td colspan="8">* p&lt;0.05 ** p&lt;0.01 *** p&lt;0.001</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
 
   <li>Analyze the network for global network properties.</li>
