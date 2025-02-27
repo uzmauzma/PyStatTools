@@ -60,7 +60,7 @@ Intervals (CI). </p>
 
 
 
-## 6. Results
+##  Results
 
 <h2>Figures</h2>
 
