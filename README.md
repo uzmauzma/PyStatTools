@@ -1,4 +1,4 @@
-<h1>Survey Analysis Tool</h1>
+<h1>PyStatTools: A Python Package for Statistical Analysis of Survey Data</h1>
 <h3> Overview </h3>
 <p>The Survey Analysis Tool is a Python-based application designed for performing various statistical analyses,
   including Chi-Square Tests, Generalized Linear Models (GLM), and Multinomial Logistic Regression, on survey data.
