@@ -57,8 +57,7 @@ Intervals (CI). </p>
 
 <p>4. Follow the interface to upload your dataset, select the desired analysis method, and view the results.</p>
 
-
-
+![Figure 3](https://github.com/uzmauzma/Survaytool/blob/main/Fig/App.png)
 
 ##  Results
 
