@@ -57,7 +57,11 @@ Intervals (CI). </p>
 
 <p>4. Follow the interface to upload your dataset, select the desired analysis method, and view the results.</p>
 
-![Figure 3](https://github.com/uzmauzma/Survaytool/blob/main/Fig/App.png)
+![Figure 2](https://github.com/uzmauzma/Survaytool/blob/main/Fig/App.png)
+<P>Fig 2: Graphical user interface (GUI) for survey analysis.  A) The layout where users can upload a CSV file. B) The interface for selecting an analysis method.</P>
+
+![Figure 3](https://github.com/uzmauzma/Survaytool/blob/main/Fig/App2.png)
+<P>Fig 3: The variable selection interface where users can choose dependent and independent variables.</P>
 
 ##  Results
 
