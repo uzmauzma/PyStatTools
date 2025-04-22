@@ -151,5 +151,8 @@ Intervals (CI). </p>
 |R²          |  0.502  
 |* p<0.05 ** p<0.01 *** p<0.001     
 
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE.txt](./LICENSE.txt) file for details.
 
 
