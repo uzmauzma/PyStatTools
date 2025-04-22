@@ -159,6 +159,6 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 If you use this software in your research, please cite it as follows:
 
-Uzma. (2025). PyStatTools: A Python Package for Statistical Analysis of Survey Data. Available at: https://github.com/uzmauzma/Tool.
+Uzma. (2025). PyStatTools: A Python Package for Statistical Analysis of Survey Data. Available at: [https://github.com/uzmauzma/Tool](https://github.com/uzmauzma/PyStatTools).
 
 
